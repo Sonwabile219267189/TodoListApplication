@@ -1,11 +1,12 @@
 class Store{
     constructor() {
         this.itemList = [];
+        const item = item;
     }
 
     addItem(){
         const li = document.createElement('li');
-        this.itemList.push("Give me task");
+        this.itemList.push("Test value");
         const delButton = document.createElement('button');
         delButton.innerHTML = "Delete";
     }
@@ -21,17 +22,11 @@ class DisplayList extends HTMLElement {
         let store = new Store();
         let text = "";
         store.addItem();
+        const input = document.createElement('input');
+        //input.type = this.tex
         for (let x = 0; x < store.itemList.length; x++) {
             this.innerHTML = text += store.itemList[x]  + "<br>";
         }
-
-
-//     show(){
-//         //const store = new Store();
-//         //let text = store.
-// const it = document.createElement("<li>");
-// it.innerText = text;
-// }
 
     }
 }
