@@ -1,0 +1,22 @@
+.title{
+    text-align: center;
+    font-family: "Roboto";
+}
+.addItem {
+    font-family: "Roboto";
+    padding: 5px 10px;
+}
+
+.item {
+    border: 1px solid black;
+    background-color: coral;
+    margin: 5px 0px;
+}
+
+.deleteItem {
+    font-family: "Roboto";
+    padding: 5px 10px;
+}
+
+
+
